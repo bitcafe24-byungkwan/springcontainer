@@ -1,5 +1,10 @@
 package com.cafe24.springcontainer.user;
 
-public class User1 {
+import org.springframework.stereotype.Component;
 
+@Component
+public class User1 {
+	public String getName() {
+		return "사용자1";
+	}
 }

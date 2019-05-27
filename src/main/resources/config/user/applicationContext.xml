@@ -9,9 +9,10 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-
-   <!--  빈 설정을 한다  -->
-   <bean id="myBean" class="com.bit2015.MyBean" />	
-
+	<context:annotation-config />
+	<context:component-scan	base-package="com.cafe24.springcontainer.user">
+		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Component" />
+	</context:component-scan>
 
 </beans>
