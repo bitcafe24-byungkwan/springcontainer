@@ -1,6 +1,5 @@
 package com.cafe24.springcontainer.soundsystem;
 
-import javax.inject.Named;
 
 import org.springframework.stereotype.Component;
 

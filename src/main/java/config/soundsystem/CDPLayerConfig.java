@@ -3,6 +3,7 @@ package config.soundsystem;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+// 
 @Configuration
 @ComponentScan(basePackages = "com.cafe24.springcontainer.soundsystem")
 //@ComponentScan(basePackages = {"com.cafe24.springcontainer.soundsystem","com.cafe24.springcontainer.videosystem"})
@@ -11,5 +12,5 @@ import org.springframework.context.annotation.Configuration;
 //@ComponentScan(basePackageClasses = Index.class)
 
 public class CDPLayerConfig {
-	
+	//자아~동
 }
